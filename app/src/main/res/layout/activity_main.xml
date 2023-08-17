@@ -8,29 +8,32 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#008A5D5D"
-        android:drawableTint="#F6F6F6"
         android:scaleX="2"
         android:scaleY="2"
-        android:text="Login Using Your IOT"
+        android:text="@string/login_text"
         android:textColor="#FAFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.248" />
+        app:layout_constraintVertical_bias="0.168" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Google Home"
+        android:layout_marginTop="25dp"
+        android:text="@string/device_google_text"
+
         app:cornerRadius="2dp"
         app:layout_constrainedHeight="true"
         app:layout_constrainedWidth="true"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="260dp" />
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

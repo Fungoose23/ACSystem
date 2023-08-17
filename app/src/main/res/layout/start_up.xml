@@ -24,10 +24,10 @@
         app:layout_constraintVertical_bias="0.168" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_startup_google"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="24dp"
         android:text="@string/device_google_text"
 
         app:cornerRadius="2dp"

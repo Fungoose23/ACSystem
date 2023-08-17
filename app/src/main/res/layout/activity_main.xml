@@ -4,27 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#281254"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#008A5D5D"
+        android:drawableTint="#F6F6F6"
         android:scaleX="2"
         android:scaleY="2"
-        android:text="Never Gonnna Give You Up"
+        android:text="Login Using Your IOT"
+        android:textColor="#FAFAFA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.275" />
+        app:layout_constraintVertical_bias="0.248" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Google Home"
         app:cornerRadius="2dp"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="293dp" />
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="260dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
